@@ -25,13 +25,16 @@ public class RouteServlet extends BaseServlet {
         String pageSizeStr = request.getParameter("pageSize");
         String cidStr = request.getParameter("cid");
 
+        System.out.println("currentPage:"+currentPageStr);
+        System.out.println("pageSize:"+pageSizeStr);
+        System.out.println("cid:"+cidStr);
         //接收rname线路名称
         String rname = request.getParameter("rname");
-        rname = new String(rname.getBytes("iso-8859-1"),"utf-8");
+//        rname = new String(rname.getBytes("iso-8859-1"),"utf-8");
 
         int cid = 0;//类别id
         //处理参数
-        if(cidStr!=null && cidStr.length()>0){
+        if(cidStr!=null && cidStr.length()>0 && !"null".equals(cidStr)){
             cid = Integer.parseInt(cidStr);
         }
         int currentPage = 0;//当前页码，如果不传递，则默认为第一页
@@ -66,6 +69,7 @@ public class RouteServlet extends BaseServlet {
     public void findOne(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //1.接收id
         String rid = request.getParameter("rid");
+        System.out.println("findOne->rid:"+rid);
         //2.调用service查询route对象
         Route route = routeService.findOne(rid);
         //3.转为json写回客户端

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c370f1c1-2b94-433f-8f20-da2733e1ef02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ssm_demo_dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_dao/src/main/java/com/fy/ssm/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_domain/src/main/java/com/fy/ssm/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_service/src/main/java/com/fy/ssm/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_service/src/main/java/com/fy/ssm/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_web/src/main/java/com/fy/ssm/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_web/src/main/resource/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_web/src/main/resource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_web/src/main/resource/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_demo_web/src/main/resource/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../travel_demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../travel_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel_demo/travel/src/main/java/cn/itcast/travel/service/impl/RouteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../travel_demo/travel/src/main/java/cn/itcast/travel/service/impl/RouteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel_demo/travel/src/main/java/cn/itcast/travel/web/servlet/RouteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../travel_demo/travel/src/main/java/cn/itcast/travel/web/servlet/RouteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel_demo/travel/src/main/webapp/route_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../travel_demo/travel/src/main/webapp/route_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel_demo/travel/target/classes/cn/itcast/travel/service/impl/RouteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../travel_demo/travel/target/classes/cn/itcast/travel/service/impl/RouteServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../travel_demo/travel/target/classes/cn/itcast/travel/web/servlet/RouteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../travel_demo/travel/target/classes/cn/itcast/travel/web/servlet/RouteServlet.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_demo_dao/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_demo_service/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_demo_domain/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_demo_utils/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_demo_web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_dao/ssm_demo_dao.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/java/com/fy/ssm/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+              <folding>
+                <element signature="e#1215#1231#0" expanded="true" />
+                <element signature="e#1273#1286#0" expanded="true" />
+                <element signature="e#1325#1343#0" expanded="true" />
+                <element signature="e#1386#1404#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-838">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="30" column="4" selection-start-line="30" selection-end-line="30" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/db.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_service/src/main/java/com/fy/ssm/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssm_demo_service/src/main/java/com/fy/ssm/service/IProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ssm_demo_web/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_demo_domain/src/main/java/com/fy/ssm/domain/Product.java" />
+        <option value="$PROJECT_DIR$/ssm_demo_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_demo_service/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_demo_dao/src/main/java/com/fy/ssm/dao/IProductDao.java" />
+        <option value="$PROJECT_DIR$/ssm_demo_service/src/main/java/com/fy/ssm/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/ssm_demo_service/src/main/java/com/fy/ssm/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_demo_web/src/main/java/com/fy/ssm/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/ssm_demo_web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/ssm_demo_web/src/main/resource/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/ssm_demo_web/src/main/resource/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/ssm_demo_web/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven" />
+        <option name="userSettingsFile" value="D:\apache-maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_demo_dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_demo_dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_demo_dao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.fy.ssm_demo:ssm_demo_domain:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/ssm_demo_dao/ssm_demo_dao.iml" />
+        <option value="$PROJECT_DIR$/ssm_demo_service/ssm_demo_service.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/ssm_demo_domain/ssm_demo_domain.iml" />
+        <option value="$PROJECT_DIR$/ssm_demo_utils/ssm_demo_utils.iml" />
+        <option value="$PROJECT_DIR$/ssm_demo_web/ssm_demo_web.iml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="833" />
+    <option name="width" value="854" />
+    <option name="height" value="1017" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm_demo_web/src/main/resource" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA_demo\ssm_demo\ssm_demo_web\src\main\resource" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ssm_demo [clean,install,-DskipTests]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+                <option value="-DskipTests" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <layout>
+      <window_info id="Web" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24449877" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.3178484" side_tool="true" weight="0.36995515" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6821516" visible="true" weight="0.36995515" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.21149144" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ssm_demo_utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="4" selection-start-column="3" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_domain/ssm_demo_domain.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_service/ssm_demo_service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_domain/src/main/java/com/fy/ssm/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1784#1785#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_dao/src/main/java/com/fy/ssm/dao/IProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1838">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_dao/ssm_demo_dao.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/java/com/fy/ssm/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/spring-mvc.tld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_service/src/main/java/com/fy/ssm/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_service/src/main/java/com/fy/ssm/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="30" column="4" selection-start-line="30" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/resource/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <folding>
+            <element signature="e#1215#1231#0" expanded="true" />
+            <element signature="e#1273#1286#0" expanded="true" />
+            <element signature="e#1325#1343#0" expanded="true" />
+            <element signature="e#1386#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_demo_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
