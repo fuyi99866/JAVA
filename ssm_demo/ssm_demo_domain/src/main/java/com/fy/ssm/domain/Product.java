@@ -1,15 +1,19 @@
 package com.fy.ssm.domain;
 
+import com.fy.ssm.utils.DateUtils;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 /**
  * 产品信息
  */
 public class Product {
-    private String id; // 主键
+     private Integer id; // 主键
      private String productNum; // 编号 唯一
      private String productName; // 名称
      private String cityName; // 出发城市
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm")
      private Date departureTime; // 出发时间
      private String departureTimeStr;
      private double productPrice; // 产品价格
@@ -17,11 +21,11 @@ public class Product {
      private Integer productStatus; // 状态 0 关闭 1 开启
      private String productStatusStr;
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -58,6 +62,9 @@ public class Product {
     }
 
     public String getDepartureTimeStr() {
+        if(departureTime!=null){
+            departureTimeStr = DateUtils.date2String(departureTime,"yyyy-MM-dd");
+        }
         return departureTimeStr;
     }
 
@@ -90,6 +97,14 @@ public class Product {
     }
 
     public String getProductStatusStr() {
+        if (productStatus!=null){
+            if (productStatus == 1){
+                productStatusStr = "开启";
+            }
+            if(productStatus == 0){
+                productStatusStr = "关闭";
+            }
+        }
         return productStatusStr;
     }
 

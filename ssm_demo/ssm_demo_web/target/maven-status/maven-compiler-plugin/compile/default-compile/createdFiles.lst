@@ -1,0 +1,8 @@
+com\fy\ssm\controller\LogAop.class
+com\fy\ssm\controller\UserController.class
+com\fy\ssm\filter\CharchaterFilter.class
+com\fy\ssm\controller\OrdersController.class
+com\fy\ssm\controller\ProductController.class
+com\fy\ssm\controller\SysLogController.class
+com\fy\ssm\controller\PermissionController.class
+com\fy\ssm\controller\RoleController.class

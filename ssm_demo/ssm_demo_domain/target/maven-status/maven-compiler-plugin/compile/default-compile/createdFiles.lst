@@ -1,0 +1,8 @@
+com\fy\ssm\domain\Traveller.class
+com\fy\ssm\domain\SysLog.class
+com\fy\ssm\domain\Role.class
+com\fy\ssm\domain\Member.class
+com\fy\ssm\domain\Product.class
+com\fy\ssm\domain\UserInfo.class
+com\fy\ssm\domain\Orders.class
+com\fy\ssm\domain\Permission.class

@@ -3,6 +3,7 @@ package com.fy.ssm.service.impl;
 import com.fy.ssm.dao.IProductDao;
 import com.fy.ssm.domain.Product;
 import com.fy.ssm.service.IProductService;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,7 +16,18 @@ public class ProductServiceImpl implements IProductService {
     @Autowired
     private IProductDao productDao;
     @Override
-    public List<Product> findAll() throws Exception {
+    public List<Product> findAll(int page,int size) throws Exception {
+        PageHelper.startPage(page,size);
         return productDao.findAll();
+    }
+
+    @Override
+    public void save(Product product) throws Exception {
+         productDao.save(product);
+    }
+
+    @Override
+    public void findByName(String pname) throws Exception {
+        productDao.findByName(pname);
     }
 }

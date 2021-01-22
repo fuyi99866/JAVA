@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [22/Jan/2021:15:27:15 +0800] "GET /ssm_demo_web/product/findAll.do HTTP/1.1" 302 - http-bio-8020-exec-1 40
+0:0:0:0:0:0:0:1 - - [22/Jan/2021:15:27:18 +0800] "POST /ssm_demo_web/login.do HTTP/1.1" 200 13120 http-bio-8020-exec-3 1092
+0:0:0:0:0:0:0:1 - - [22/Jan/2021:15:27:21 +0800] "GET /ssm_demo_web/product/findAll.do HTTP/1.1" 200 22417 http-bio-8020-exec-4 403
+0:0:0:0:0:0:0:1 - - [22/Jan/2021:15:27:32 +0800] "GET /ssm_demo_web/product/findByName.do?pname=%E5%8C%97 HTTP/1.1" 500 27551 http-bio-8020-exec-5 99
+0:0:0:0:0:0:0:1 - - [22/Jan/2021:15:53:09 +0800] "GET /ssm_demo_web/product/findAll.do HTTP/1.1" 200 22417 http-bio-8020-exec-7 27
