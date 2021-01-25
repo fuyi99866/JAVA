@@ -1,0 +1,7 @@
+com\fy\user\interceptor\Myinterceptor.class
+com\fy\user\service\UserService.class
+com\fy\user\config\WebMvcConfiguration.class
+com\fy\user\pojo\User.class
+com\fy\user\controller\UserController.class
+com\fy\user\mapper\UserMapper.class
+com\fy\user\UserApplication.class

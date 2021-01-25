@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fy-user/fy-user.iml" filepath="$PROJECT_DIR$/fy-user/fy-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fyspring-boot/fyspring-boot.iml" filepath="$PROJECT_DIR$/fyspring-boot/fyspring-boot.iml" />
+    </modules>
+  </component>
+</project>
