@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-eureka/demo-eureka.iml" filepath="$PROJECT_DIR$/demo-eureka/demo-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-service-consumer/demo-service-consumer.iml" filepath="$PROJECT_DIR$/demo-service-consumer/demo-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-service-provider/demo-service-provider.iml" filepath="$PROJECT_DIR$/demo-service-provider/demo-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-zuul/demo-zuul.iml" filepath="$PROJECT_DIR$/demo-zuul/demo-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/fy-user/fy-user.iml" filepath="$PROJECT_DIR$/fy-user/fy-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/fyspring-boot/fyspring-boot.iml" filepath="$PROJECT_DIR$/fyspring-boot/fyspring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http-client/http-client.iml" filepath="$PROJECT_DIR$/http-client/http-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-consumer_1/server-consumer_1.iml" filepath="$PROJECT_DIR$/server-consumer_1/server-consumer_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-peovider_1/server-peovider_1.iml" filepath="$PROJECT_DIR$/server-peovider_1/server-peovider_1.iml" />
     </modules>
   </component>
 </project>

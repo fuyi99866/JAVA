@@ -5,6 +5,14 @@
       <list>
         <option value="$PROJECT_DIR$/fyspring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/fy-user/pom.xml" />
+        <option value="$PROJECT_DIR$/http-client/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/server-peovider_1/pom.xml" />
+        <option value="$PROJECT_DIR$/server-consumer_1/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/../leyou/pom.xml" />
       </list>
     </option>
   </component>

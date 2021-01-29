@@ -1,0 +1,15 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10087/eureka/
+server:
+  port: 9001
+spring:
+  application:
+    name: server-provider
+  datasource:
+    url: jdbc:mysql://localhost:3306/leyou?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.example.provider_1.pojo
