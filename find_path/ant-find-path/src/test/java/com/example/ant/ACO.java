@@ -238,8 +238,8 @@ public class ACO {
 
     public static void main(String[] args) throws IOException{
         long startTime = System.currentTimeMillis();    //获取开始时间
-        ACO aco = new ACO(42,100,200,1.f,0.5f,0.5f);
-        aco.init("C://Users//ubt//Desktop//data.txt");
+        ACO aco = new ACO(20,100,200,1.f,0.5f,0.5f);
+        aco.init("C://Users//ubt//Desktop//data1.txt");
         aco.solve();
         long endTime = System.currentTimeMillis();    //获取结束时间
         System.out.println("程序运行时间：" + (endTime - startTime) + "ms");    //输出程序运行时间

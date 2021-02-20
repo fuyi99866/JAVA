@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e04d487b-a358-475e-aabe-34e1acdf3f17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/leyou-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/LeyouGatewayApplicaion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/leyou-item-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/LeyouItemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/leyou-registry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/src/main/java/com.leyou/LeyouRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../find_path/ant-find-path/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../find_path/ant-find-path/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../find_path/ant-find-path/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../find_path/ant-find-path/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../find_path/ant-find-path/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../find_path/ant-find-path/src/test/java/com/example/ant/ACO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../find_path/ant-find-path/src/test/java/com/example/ant/ACO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/LeyouItemInterfaceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/test/java/com/leyou/item/LeyouItemInterfaceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/LeyouItemServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/server/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/server/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/test/java/com/leyou/item/LeyouItemServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/src/main/java/com/example/item/LeyouItemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-item/src/test/java/com/example/item/LeyouItemApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/leyou/LeyouApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/leyou/LeyouApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou_demo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou_demo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou_demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou_demo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou_demo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou_demo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou_demo/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/leyou-registry/target/" />
+    <ignored path="$PROJECT_DIR$/leyou-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/leyou-item/target/" />
+    <ignored path="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/" />
+    <ignored path="$PROJECT_DIR$/leyou-item/leyou-item-service/target/" />
+    <ignored path="$PROJECT_DIR$/leyou-common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1400">
+              <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/LeyouItemApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2950">
+              <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/CategoryMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/CategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/impl/CategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Category.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Yml File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>guaver</find>
+      <find>guava</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou-registry/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/leyou-registry/src/main/java/com.leyou/LeyouRegistryApplication.java" />
+        <option value="$PROJECT_DIR$/leyou-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/LeyouGatewayApplicaion.java" />
+        <option value="$PROJECT_DIR$/leyou-item/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/LeyouItemApplication.java" />
+        <option value="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/leyou-item/leyou-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java" />
+        <option value="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/impl/CategoryServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven" />
+        <option name="userSettingsFile" value="D:\apache-maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.cloud:spring-cloud-netflix-eureka-server:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="leyou-registry" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.0.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.netflix.ribbon:ribbon-eureka:2.2.5" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="854" />
+    <option name="height" value="1017" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.leyou.item.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LeyouItemApplication">
+    <configuration name="LeyouGatewayApplicaion" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouGatewayApplicaion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouItemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouItemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LeyouItemApplication" />
+        <item itemvalue="Spring Boot.LeyouGatewayApplicaion" />
+        <item itemvalue="Spring Boot.LeyouRegistryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="854" height="1017" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23299748" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72066015" weight="0.353139" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.27933985" side_tool="true" weight="0.353139" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3295583" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299748" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.34760705" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.3294621" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/leyou-registry/src/main/resources/application1.yml" />
+    <entry file="file://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-httpclient/2.2.5/ribbon-httpclient-2.2.5.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.leyou.registry:leyou-registry:1.0.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.leyou.registry:leyou-registry:1.0.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="167.66975806451615">com.leyou.registry:leyou-registry:1.0.0-SNAPSHOT</node>
+            <node x="124.0" y="167.66975806451615">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE</node>
+            <node x="435.0" y="40.021370967741944">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE</node>
+            <node x="745.5" y="68.4375">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3</node>
+            <node x="907.0" y="47.9375">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="1052.0" y="47.9375">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="1065.5" y="174.27137096774194">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="921.0" y="158.8947580645161">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21</node>
+            <node x="1065.5" y="215.27137096774194">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
+            <node x="937.0" y="111.90725806451613">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0</node>
+            <node x="1065.5" y="281.646370967742">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0</node>
+            <node x="747.5" y="0.0">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3</node>
+            <node x="743.5" y="133.8125">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6</node>
+            <node x="935.0" y="213.8322580645161">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
+            <node x="430.0" y="106.44637096774196">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE</node>
+            <node x="434.5" y="279.2072580645161">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE</node>
+            <node x="748.0" y="259.3125">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5</node>
+            <node x="734.5" y="363.70725806451617">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5</node>
+            <node x="935.0" y="363.70725806451617">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:16.0.1</node>
+            <node x="723.0" y="198.3125">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5</node>
+            <node x="935.0" y="274.8322580645161">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0</node>
+            <node x="492.5" y="201.5822580645161">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="com.leyou.registry:leyou-registry:1.0.0-SNAPSHOT" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE">
+              <point x="52.0" y="-0.0" />
+              <point x="-133.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0">
+              <point x="-29.5" y="-7.0" />
+              <point x="1042.0" y="177.77137096774194" />
+              <point x="1022.0" y="217.3322580645161" />
+              <point x="29.5" y="-7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE">
+              <point x="133.0" y="7.875" />
+              <point x="410.0" y="294.9572580645161" />
+              <point x="-112.0" y="5.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21">
+              <point x="60.5" y="-5.25" />
+              <point x="887.0" y="177.2697580645161" />
+              <point x="-43.5" y="7.875" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0">
+              <point x="-29.5" y="-0.0" />
+              <point x="1042.0" y="184.77137096774194" />
+              <point x="1022.0" y="277.4572580645161" />
+              <point x="29.5" y="-7.875" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3">
+              <point x="54.0" y="-7.875" />
+              <point x="663.0" y="204.2072580645161" />
+              <point x="683.0" y="84.1875" />
+              <point x="-49.5" y="5.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3">
+              <point x="111.5" y="-7.0" />
+              <point x="683.0" y="10.5" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE">
+              <point x="133.0" y="-2.625" />
+              <point x="410.0" y="111.69637096774196" />
+              <point x="-116.5" y="-5.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5">
+              <point x="133.0" y="2.625" />
+              <point x="410.0" y="212.0822580645161" />
+              <point x="-54.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE">
+              <point x="-112.0" y="-5.25" />
+              <point x="410.0" y="284.4572580645161" />
+              <point x="410.0" y="122.19637096774196" />
+              <point x="-116.5" y="5.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0">
+              <point x="-29.5" y="-0.0" />
+              <point x="1042.0" y="292.146370967742" />
+              <point x="1022.0" y="287.9572580645161" />
+              <point x="29.5" y="2.625" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0">
+              <point x="47.0" y="-0.0" />
+              <point x="867.0" y="269.8125" />
+              <point x="887.0" y="224.3322580645161" />
+              <point x="-29.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0">
+              <point x="57.5" y="-0.0" />
+              <point x="-43.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0">
+              <point x="-29.5" y="-0.0" />
+              <point x="29.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:16.0.1" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0">
+              <point x="29.5" y="7.875" />
+              <point x="1022.0" y="293.2072580645161" />
+              <point x="1042.0" y="295.146370967742" />
+              <point x="-29.5" y="3.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0">
+              <point x="-29.5" y="7.0" />
+              <point x="1042.0" y="232.77137096774194" />
+              <point x="1022.0" y="282.7072580645161" />
+              <point x="29.5" y="-2.625" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6">
+              <point x="111.5" y="7.0" />
+              <point x="683.0" y="135.9125" />
+              <point x="-51.5" y="-8.400000000000006" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5">
+              <point x="-60.5" y="-7.0" />
+              <point x="693.0" y="367.20725806451617" />
+              <point x="693.0" y="215.8125" />
+              <point x="-72.0" y="7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3">
+              <point x="111.5" y="-0.0" />
+              <point x="683.0" y="73.6875" />
+              <point x="-49.5" y="-5.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:16.0.1">
+              <point x="-29.5" y="6.0" />
+              <point x="1042.0" y="298.146370967742" />
+              <point x="1022.0" y="368.95725806451617" />
+              <point x="29.5" y="-5.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:16.0.1" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0">
+              <point x="-29.5" y="-5.25" />
+              <point x="887.0" y="368.95725806451617" />
+              <point x="887.0" y="231.3322580645161" />
+              <point x="-29.5" y="7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0">
+              <point x="-29.5" y="-3.0" />
+              <point x="1042.0" y="289.146370967742" />
+              <point x="1022.0" y="231.3322580645161" />
+              <point x="29.5" y="7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6">
+              <point x="-57.5" y="-0.0" />
+              <point x="887.0" y="58.4375" />
+              <point x="867.0" y="139.0625" />
+              <point x="51.5" y="-5.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5">
+              <point x="112.0" y="-0.0" />
+              <point x="683.0" y="276.8125" />
+              <point x="-47.0" y="7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6">
+              <point x="-60.5" y="-0.0" />
+              <point x="683.0" y="374.20725806451617" />
+              <point x="683.0" y="148.5125" />
+              <point x="-51.5" y="4.199999999999989" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21">
+              <point x="49.5" y="7.0" />
+              <point x="867.0" y="85.9375" />
+              <point x="887.0" y="166.7697580645161" />
+              <point x="-43.5" y="-2.625" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.3" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0">
+              <point x="51.5" y="5.25" />
+              <point x="867.0" y="149.5625" />
+              <point x="887.0" y="217.3322580645161" />
+              <point x="-29.5" y="-7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21">
+              <point x="72.0" y="-5.25" />
+              <point x="887.0" y="172.0197580645161" />
+              <point x="-43.5" y="2.625" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0">
+              <point x="27.5" y="-0.0" />
+              <point x="1022.0" y="122.40725806451613" />
+              <point x="1042.0" y="286.146370967742" />
+              <point x="-29.5" y="-6.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5">
+              <point x="54.0" y="7.875" />
+              <point x="663.0" y="219.9572580645161" />
+              <point x="683.0" y="269.8125" />
+              <point x="-47.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5">
+              <point x="112.0" y="-7.0" />
+              <point x="683.0" y="208.8125" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5">
+              <point x="54.0" y="2.625" />
+              <point x="663.0" y="214.7072580645161" />
+              <point x="683.0" y="201.8125" />
+              <point x="-72.0" y="-7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0">
+              <point x="49.5" y="-0.0" />
+              <point x="867.0" y="78.9375" />
+              <point x="887.0" y="122.40725806451613" />
+              <point x="-27.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE">
+              <point x="133.0" y="-7.875" />
+              <point x="410.0" y="50.521370967741944" />
+              <point x="-111.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6">
+              <point x="116.5" y="-0.0" />
+              <point x="683.0" y="140.1125" />
+              <point x="-51.5" y="-4.199999999999989" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6">
+              <point x="-47.0" y="-7.0" />
+              <point x="703.0" y="262.8125" />
+              <point x="703.0" y="152.71249999999998" />
+              <point x="-51.5" y="8.399999999999977" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0">
+              <point x="72.0" y="5.25" />
+              <point x="887.0" y="285.3322580645161" />
+              <point x="-29.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0">
+              <point x="43.5" y="-0.0" />
+              <point x="1022.0" y="169.3947580645161" />
+              <point x="1042.0" y="218.77137096774194" />
+              <point x="-29.5" y="-7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6">
+              <point x="54.0" y="-2.625" />
+              <point x="663.0" y="209.4572580645161" />
+              <point x="683.0" y="144.3125" />
+              <point x="-51.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:16.0.1">
+              <point x="60.5" y="5.25" />
+              <point x="-29.5" y="5.25" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5">
+              <point x="0.0" y="-10.5" />
+              <point x="0.0" y="10.5" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:16.0.1" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0">
+              <point x="29.5" y="5.25" />
+              <point x="1022.0" y="379.45725806451617" />
+              <point x="1042.0" y="301.146370967742" />
+              <point x="-29.5" y="9.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21">
+              <point x="-57.5" y="7.0" />
+              <point x="887.0" y="65.4375" />
+              <point x="887.0" y="161.5197580645161" />
+              <point x="-43.5" y="-7.875" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0">
+              <point x="-29.5" y="7.0" />
+              <point x="1042.0" y="191.77137096774194" />
+              <point x="1042.0" y="283.146370967742" />
+              <point x="-29.5" y="-9.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0">
+              <point x="49.5" y="-7.0" />
+              <point x="867.0" y="71.9375" />
+              <point x="887.0" y="51.4375" />
+              <point x="-57.5" y="-7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5">
+              <point x="112.0" y="7.0" />
+              <point x="683.0" y="381.20725806451617" />
+              <point x="-60.5" y="7.0" />
+            </edge>
+            <edge source="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0" target="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.3/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0">
+              <point x="0.0" y="10.5" />
+              <point x="0.0" y="-10.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.3552590266875986" x="571.0" y="157.0" />
+          <SelectedNodes>
+            <node>com.leyou.registry:leyou-registry:1.0.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Show Conflicts/Duplicates</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="91" selection-start-line="15" selection-start-column="4" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-registry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-registry/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-registry/src/main/java/com.leyou/LeyouRegistryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/LeyouGatewayApplicaion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/LeyouItemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/CategoryServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2950">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|leyou-registry</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

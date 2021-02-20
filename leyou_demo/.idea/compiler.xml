@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fyspring-boot" />
+        <module name="server-peovider_1" />
         <module name="demo-service-consumer" />
-        <module name="demo-zuul" />
+        <module name="leyou" />
         <module name="demo-service-provider" />
         <module name="demo-eureka" />
         <module name="http-client" />
         <module name="server-consumer_1" />
-        <module name="server-peovider_1" />
+        <module name="demo-zuul" />
         <module name="fy-user" />
       </profile>
     </annotationProcessing>

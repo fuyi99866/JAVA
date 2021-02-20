@@ -1,18 +1,24 @@
 package com.leyou.item.pojo;
-
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 @Table(name = "tb_category")
-public class Category {
+/**
+ * 商品分类对应的实体
+ */
+public class Category implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private Long parentId;
     private Boolean isParent;
+    /**
+     * 排序指数，越小越靠前
+     */
     private Integer sort;
 
     public Long getId() {
@@ -39,12 +45,12 @@ public class Category {
         this.parentId = parentId;
     }
 
-    public Boolean getIsParent() {
+    public Boolean getParent() {
         return isParent;
     }
 
-    public void setIsParent(Boolean idParent) {
-        this.isParent = idParent;
+    public void setParent(Boolean parent) {
+        isParent = parent;
     }
 
     public Integer getSort() {
@@ -61,7 +67,7 @@ public class Category {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", parentId=" + parentId +
-                ", idParent=" + isParent +
+                ", isParent=" + isParent +
                 ", sort=" + sort +
                 '}';
     }
